@@ -43,13 +43,13 @@ public class DisplayInputData : MonoBehaviour
 
         }
         
-        if (_inputData._rightController.TryGetFeatureValue(CommonUsages.primary2DAxis, out var right2DAxis))
+       /* if (_inputData._rightController.TryGetFeatureValue(CommonUsages.primary2DAxis, out var right2DAxis))
         {
             if (dissolveTextures.dissolveCorEnded)
             {
                 moveManager.StartMovement();
             }
-        }
+        }*/
     }
    
 }

@@ -12,6 +12,7 @@ public class DissolveTextures : MonoBehaviour
     [SerializeField] private float dissolveTime = 2f;
     [SerializeField] public bool dissolveCorEnded;
     [SerializeField] private GameObject livingroom;
+    [SerializeField] private MoveManager moveManager;
     private void Start()
     {
         dissolveCorEnded = false;
@@ -59,6 +60,7 @@ public class DissolveTextures : MonoBehaviour
         }
 
         dissolveCorEnded = true;
+        moveManager.StartMovement();
         Debug.Log("<color=blue>COR ENDED</color>" + dissolveCorEnded);
         livingroom.SetActive(false);
     }

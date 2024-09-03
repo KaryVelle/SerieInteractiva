@@ -40,7 +40,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _TIME: 24.45
-    - _TileScale: 0.93
+    - _TileScale: 0.8
     - _Tiling: 1
     m_Colors:
     - _Color: {r: 2.2498085, g: 12.844468, b: 0, a: 0}

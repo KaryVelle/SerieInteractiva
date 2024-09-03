@@ -9,9 +9,11 @@ public class DissolveTextures : MonoBehaviour
 {
     [SerializeField] private Material[] dissolveColors;
     [SerializeField] private Material[] dissolveTextures;
-    [SerializeField] private float dissolveTime = 2f; 
+    [SerializeField] private float dissolveTime = 2f;
+    [SerializeField] public bool dissolveCorEnded;
     private void Start()
     {
+        dissolveCorEnded = false;
         List<Material> allMaterials = new List<Material>();
         foreach (var mat in allMaterials)
         {
@@ -54,5 +56,8 @@ public class DissolveTextures : MonoBehaviour
                 mat.SetFloat("_AlphaClipping", 1f);
             }
         }
+
+        dissolveCorEnded = true;
+        Debug.Log("<color=blue>COR ENDED</color>" + dissolveCorEnded);
     }
 }

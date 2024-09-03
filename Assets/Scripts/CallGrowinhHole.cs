@@ -10,10 +10,6 @@ public class CallGrowinhHole : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     { 
         Debug.Log("OBJECT FOND");
-        if (other.CompareTag("Player"))   
-        {
-            StartCoroutine(growHole.StartGrowing());
-            Debug.Log("PLAYER FPUND");
-        }
+        StartCoroutine(growHole.StartGrowing());
     }
 }

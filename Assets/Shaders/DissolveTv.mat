@@ -50,7 +50,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClipping: 1
+    - _AlphaClipping: 0.18374687
     - _EdgeWidth: 0.01
     - _Metallic: 0
     - _Noise: 50

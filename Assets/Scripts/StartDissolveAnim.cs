@@ -8,6 +8,7 @@ public class StartDissolveAnim : MonoBehaviour
 
    [SerializeField] private DissolveTextures dissolveTextures;
    [SerializeField] public bool isControllerGrabbed;
+   [SerializeField] private Float floating;
    #endregion
 
 
@@ -21,5 +22,6 @@ public class StartDissolveAnim : MonoBehaviour
    {
       Debug.Log("<color=red>Not Grabbed</color>");
       isControllerGrabbed = false;
+      floating.useGravity = true;
    }
 }

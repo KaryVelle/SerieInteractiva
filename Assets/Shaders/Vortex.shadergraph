@@ -11,6 +11,9 @@
         },
         {
             "m_Id": "56634027a38841feb9efb4e9c504863c"
+        },
+        {
+            "m_Id": "0332769d1bf24ab083ab71d0a8b6ade1"
         }
     ],
     "m_Keywords": [],
@@ -77,6 +80,9 @@
         },
         {
             "m_Id": "6163799e94c34527bda67d6fa544ef52"
+        },
+        {
+            "m_Id": "70c5465e68a84ac6be276926dc6f288b"
         }
     ],
     "m_GroupDatas": [],
@@ -279,12 +285,39 @@
     "m_OutputNode": {
         "m_Id": ""
     },
-    "m_SubDatas": [],
     "m_ActiveTargets": [
         {
             "m_Id": "b8e9a6ad4fa3427fad2884cd580d8f03"
         }
     ]
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "0332769d1bf24ab083ab71d0a8b6ade1",
+    "m_Guid": {
+        "m_GuidSerialized": "857ed043-dac2-46d4-9582-2cb096d580f7"
+    },
+    "m_Name": "TIME",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "TIME",
+    "m_DefaultReferenceName": "_TIME",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": -6.599999904632568,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
 }
 
 {
@@ -339,10 +372,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -937.0000610351563,
-            "y": 156.0000457763672,
-            "width": 123.0,
-            "height": 33.99998474121094
+            "x": -1017.0001220703125,
+            "y": 170.0,
+            "width": 123.00006103515625,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -411,9 +444,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1041.0,
-            "y": -139.0,
-            "width": 208.0,
+            "x": -1077.0,
+            "y": -148.0,
+            "width": 208.00006103515626,
             "height": 278.0
         }
     },
@@ -827,10 +860,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1800.0,
-            "y": 0.0000021457672119140627,
-            "width": 124.0001220703125,
-            "height": 172.99996948242188
+            "x": -2223.000244140625,
+            "y": -200.00003051757813,
+            "width": 124.0,
+            "height": 173.0
         }
     },
     "m_Slots": [
@@ -1051,8 +1084,47 @@
         },
         {
             "m_Id": "56634027a38841feb9efb4e9c504863c"
+        },
+        {
+            "m_Id": "0332769d1bf24ab083ab71d0a8b6ade1"
         }
     ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "70c5465e68a84ac6be276926dc6f288b",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1979.0,
+            "y": 308.0000305175781,
+            "width": 102.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "74f960ec34d24e79beac50c1c8ce16fc"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "0332769d1bf24ab083ab71d0a8b6ade1"
+    }
 }
 
 {
@@ -1077,6 +1149,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "74f960ec34d24e79beac50c1c8ce16fc",
+    "m_Id": 0,
+    "m_DisplayName": "TIME",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -1123,7 +1210,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "X",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }

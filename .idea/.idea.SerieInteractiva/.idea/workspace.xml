@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bf5ac3c6-e100-47bc-9e34-69f1eaca8a17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SerieInteractiva/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SerieInteractiva/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DModels/ESCENARIO.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DModels/ESCENARIO.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DModels/ESCENARIONN.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/3DModels/ESCENARIONN.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CallGrowinhHole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CallGrowinhHole.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Holw.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Holw.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/Vortexx.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Vortexx.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725395984027</updated>
-      <workItem from="1725395989059" duration="1535000" />
+      <workItem from="1725395989059" duration="1680000" />
     </task>
     <servers />
   </component>

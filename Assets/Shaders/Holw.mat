@@ -45,7 +45,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Size: 3
-    - _Smoothness: 0.492
+    - _Smoothness: 0.485
     m_Colors:
     - _Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
     - _DesiredPosition: {r: 0.5, g: 0.5, b: 0, a: 0}

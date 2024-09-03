@@ -8,8 +8,11 @@ public class CallGrowinhHole : MonoBehaviour
     [SerializeField] private GrowHole growHole;
 
     private void OnTriggerEnter(Collider other)
-    { 
-        Debug.Log("OBJECT FOND");
-        StartCoroutine(growHole.StartGrowing());
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Debug.Log("OBJECT FOND");
+            StartCoroutine(growHole.StartGrowing());
+        }
     }
 }

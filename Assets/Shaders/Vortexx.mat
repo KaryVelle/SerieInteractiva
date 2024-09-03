@@ -44,7 +44,7 @@ Material:
     - _Tiling: 1
     m_Colors:
     - _Color: {r: 2.2498085, g: 12.844468, b: 0, a: 0}
-    - _Tiling: {r: 32, g: 64, b: 0, a: 0}
+    - _Tiling: {r: 60.3, g: 120.8, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1548102075628431419
 MonoBehaviour:

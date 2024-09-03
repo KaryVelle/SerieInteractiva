@@ -41,13 +41,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Opacity: 0.5
+    - _Opacity: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Size: 1
-    - _Smoothness: 0.5
+    - _Size: 3
+    - _Smoothness: 0.492
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
     - _DesiredPosition: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7107273639933779530

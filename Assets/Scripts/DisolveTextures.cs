@@ -20,10 +20,9 @@ public class DissolveTextures : MonoBehaviour
                 mat.SetFloat("_AlphaClipping", 0);
             }
         }
-        StartCoroutine(DissolveMaterials());
     }
 
-    private IEnumerator DissolveMaterials()
+    public IEnumerator DissolveMaterials()
     {
         float elapsedTime = 0f;
         
